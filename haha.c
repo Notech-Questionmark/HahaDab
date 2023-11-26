@@ -18,7 +18,6 @@ double e4 = 329.63;
 
 int main()
 {
-   //intro
     Beep(349.23, 789); //f4 dotted quarter
     Beep(392.00, 789); //g4 dotted quarter
     Beep(261.63, 526); //c4 quarter
@@ -54,9 +53,7 @@ int main()
     Beep(d4, eight);
     Beep(f4, eight);
     Beep(f4, eight);
-
-    //after intro
-
+   
     Sleep(quarter);
     Beep(d4, eight);
     Beep(e4, eight);
@@ -405,19 +402,6 @@ int main()
     Beep(g4, quarter);
     Beep(f4, quarter * 2);
     Sleep(quarter);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
     return 0;
 }   
